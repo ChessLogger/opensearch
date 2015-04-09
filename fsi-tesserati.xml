@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+ <ShortName>Tesserati FSI</ShortName>
+ <Description>Cerca Tesserati</Description>
+ <Image height="16" width="16" type="image/x-icon">http://www.federscacchi.it/favicon.ico</Image>
+ <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;hl={moz:locale}&amp;q={searchTerms}"/>
+ <Tags>ChessLogger</Tags>
+ <Url type="text/html" template="http://www.torneionline.com/giocatori.php?nome={searchTerms}&amp;tipo=11"/>
+</OpenSearchDescription>
